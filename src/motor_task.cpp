@@ -53,7 +53,8 @@ void MotorTask::run() {
     // float zero_electric_offset = -0.8; // handheld 2
     // float zero_electric_offset = 2.93; //0.15; // 17mm test
     // float zero_electric_offset = 0.66; // 15mm handheld
-    float zero_electric_offset = 7.34;
+    // float zero_electric_offset = 7.34;
+    float zero_electric_offset = 3.9;
     Direction foc_direction = Direction::CW;
     motor.pole_pairs = 7;
 
